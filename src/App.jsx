@@ -1,4 +1,4 @@
-import image from "./assets/images/image-omelette.jpeg";
+// import image from "./assets/images/image-omelette.jpeg";
 
 // function App() {
 //   return (
