@@ -2,7 +2,7 @@ import image from "./assets/images/image-omelette.jpeg";
 
 function App() {
   return (
-    <div className="m-20">
+    <div className="m-20 max-w-md mx-auto bg-orange-300 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
       <div className="container">
         <div className="main">
           <img src={image} />
