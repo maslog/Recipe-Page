@@ -2,12 +2,12 @@ import image from "./assets/images/image-omelette.jpeg";
 
 function App() {
   return (
-    <div className="m-20 max-w-md mx-auto bg-orange-300 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <div className="m-20 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
       <div className="container">
         <div className="main">
-          <img src={image} />
-          <h1>Simple Omelette Recipe</h1>
-          <p>
+          <img src={image} className="rounded-xl shadow-md mb-5"/>
+          <h1 className=" text-xl text-amber-600">Simple Omelette Recipe</h1>
+          <p className="mt-2 text-gray-500">
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
